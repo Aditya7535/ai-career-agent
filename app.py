@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 import time
-from PyPDF2 import PdfReader
 from dotenv import load_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
